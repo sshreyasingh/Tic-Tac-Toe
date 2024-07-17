@@ -1,0 +1,69 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:rgb(217, 4, 41);
+    text-align: center;
+}
+.content{
+    height:70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tic{
+    height:60vh;
+    width:60vh;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap:2vmin ;
+    column-gap: 2vmin;
+}
+.box{
+    height:18vh;
+    width: 18vh;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgb(237, 242, 244);
+    color: rgb(43, 45, 66);
+    font-size: 10vmin;
+}
+#reset{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(237, 242, 244);
+    color: rgb(43, 45, 66);
+    font-size: xx-large;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 500;
+}
+#ng{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(237, 242, 244);
+    color: rgb(43, 45, 66);
+    font-size: xx-large;
+    border-radius: 1rem;
+    border: none;
+    font-weight: 500;
+}
+#message{
+    color: rgb(237, 242, 244);
+    font-size: 8vh;
+}
+.msg{
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.hide{
+   display: none;
+}
+
